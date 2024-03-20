@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "building-elastic"
+version = "0.1.0"
+description = ""
+authors = ["alonisser <alonisser@gmail.com>"]
+readme = "README.md"
+
+packages = [{ include = "building_elastic" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+pandas = "^2.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
