@@ -1,2 +1,4 @@
 .idea/
 *.csv.zip
+__pycache__/
+*.pyc
