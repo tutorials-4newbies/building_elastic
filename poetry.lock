@@ -240,6 +240,16 @@ test = ["hypothesis (>=6.46.1)", "pytest (>=7.3.2)", "pytest-xdist (>=2.2.0)"]
 xml = ["lxml (>=4.9.2)"]
 
 [[package]]
+name = "pystemmer"
+version = "2.2.0.1"
+description = "Snowball stemming algorithms, for information retrieval"
+optional = false
+python-versions = "*"
+files = [
+    {file = "PyStemmer-2.2.0.1.tar.gz", hash = "sha256:9f3b366f1ed06b49dc1868bf0aefd884423db80f3431be442d0f993e448cc67b"},
+]
+
+[[package]]
 name = "python-dateutil"
 version = "2.9.0.post0"
 description = "Extensions to the standard Python datetime module"
@@ -327,4 +337,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "10bbf10e3326bb94a3b79a1585cb230702fd4b2033d117a2590e1a560c91b9fc"
+content-hash = "14e02531ba31ed589a39c9bfe1942f1008e52c205b59c073820606424c0eaad9"

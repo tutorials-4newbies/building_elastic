@@ -11,6 +11,7 @@ packages = [{ include = "building_elastic" }]
 python = "^3.9"
 requests = "^2.31.0"
 pandas = "^2.2.1"
+pystemmer = "^2.2.0.1"
 
 
 [build-system]
